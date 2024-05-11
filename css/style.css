@@ -69,7 +69,7 @@
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 90vh;
     display: flex;
     padding: 120px 10px;
     justify-content: center;
@@ -110,12 +110,12 @@
     border-radius: 50px;
 }
 
-.banner .btn-primary{
+.btn-primary{
     background: #3A6AFD;
 }
 
-.banner .btn-secondary{
-    background: #242834;
+.btn-secondary{
+    background: #141A41;
 }
 
 .summary-info-wrap{
@@ -222,28 +222,54 @@ main small{
 
 .our-products{
     background: #000;
-    padding: 0 10px 50px 10px;
-}
-
-.our-products .tag, .our-clients .tag{
-    margin: 0 auto;
-}
-
-.our-products .container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-}
-
-.our-products .card{
+    padding: 0 10px 70px 10px;
     display: flex;
-    padding: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.product-container{
+    width: 90%;
+    margin: 50px 0;
+}
+
+.product-item{
+    display: flex;
+    justify-content: center;
+}
+
+.our-products .tag, 
+.our-clients .tag{
+    margin: 0 auto;
+}
+
+.our-products .card{
+    border-radius: 15px;
+    background: linear-gradient(100deg, #feffff, #c6daff, #bad2ff, #bfffe7, #feffff);
+}
+
+.our-products .card h1{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.our-products .card-header{
+    background: #3A6AFD ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.our-products .card p{
+    color: #242834;
+}
+
+.our-products .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 .testimonials{
     background: #242834;
     padding: 0 20px 50px 20px;
