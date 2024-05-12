@@ -208,7 +208,7 @@ main small{
 
 .why-choose-item{
     display: flex;
-    justify-content: space-between;
+    margin: 10px 0;
     align-items: start;
 }
 
@@ -300,6 +300,10 @@ main small{
     border-radius: 5px;
 }
 
+.what-we-offer, .why-choose-us, .banner{
+    background-attachment: fixed;
+}
+
 
 #myBtn {
     display: none; 
@@ -369,4 +373,46 @@ footer .socials span{
     margin: 20px 0;
     margin-left: 10px;
 }
+
+
+
+@media (min-width:768px) {
+
+    .banner{
+        height: 750px;
+    }
+
+    .container{
+        width: 700px;
+    }
+
+    .our-clients .container{
+        grid-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width:1000px) {
+
+    .banner{
+        height: 550px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .what-we-offer p{
+        width: 70%;
+    }
+
+    .why-choose-us section, .testimonials section{
+        width: 90%;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
