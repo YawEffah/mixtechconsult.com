@@ -70,11 +70,11 @@
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 620px;
     display: flex;
-    padding: 120px 10px;
+    padding: 10px;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     color: white;
     position: relative;
     z-index: 1;
