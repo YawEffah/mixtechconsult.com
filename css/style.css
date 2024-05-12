@@ -27,6 +27,7 @@
 
 .navbar .offcanvas-header{
     padding: 30px;
+    cursor: pointer;
 }
 
 .offcanvas .fa-close{
