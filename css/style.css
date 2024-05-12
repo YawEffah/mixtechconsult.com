@@ -131,7 +131,7 @@
     display: flex;
     align-items: center;
     margin: 15px 0;
-    border-bottom: 1px solid #0F2244;
+    border-bottom: 1px dotted #0F2244;
 }
 
 .testimonial-item{
@@ -389,8 +389,6 @@ footer .socials span{
 
 
 
-
-
 @media (min-width:768px) {
 
     .banner{
@@ -412,6 +410,13 @@ footer .socials span{
 
     .banner{
         height: 550px;
+    }
+
+    .summary-info-wrap .container{
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 20px;
     }
 
     .container{
