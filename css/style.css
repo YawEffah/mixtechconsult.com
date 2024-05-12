@@ -54,7 +54,8 @@
     align-items: center;
 }
 
-.navbar .form-control-wrap .search-btn{
+.navbar .form-control-wrap 
+.search-btn{
     background: none;
     border: none;
 }
@@ -219,7 +220,6 @@
         background-color: rgba(24, 25, 30, 0.90);
     }
 }
-
 
 .tag{
     width: 220px;
