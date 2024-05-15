@@ -7,6 +7,8 @@
     text-decoration: none;
 }
 
+/* Global styles */
+
 .navbar-custom{
     background-color: #295662;
 }
@@ -71,6 +73,8 @@
     justify-content: space-between;
 }
 
+/* Home page styles */
+
 .banner{
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -93,36 +97,6 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: -1;
     }
-}
-
-.about-header{
-    height: 120px;
-    padding: 10px;
-    background: #000;
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    padding: 10px 20px;
-}
-
-.about-banner{
-    background: #242834;
-    display: flex;
-    padding: 40px 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-banner article{
-    margin: 0 auto;
-    text-align: center;
-}
-
-.about-banner article p{
-    color: #fff;
-    text-align: left;
-    margin: 30px 0;
 }
 
 .banner h1{
@@ -171,7 +145,6 @@
 
 .testimonial-item{
     height: auto;
-
 }
 
 .testimonial-icon, .summary-info-icon{
@@ -300,7 +273,6 @@ main small{
     border-top-left-radius: 10px;
 }
 
-
 .our-products .card p{
     color: #242834;
 }
@@ -346,7 +318,6 @@ main small{
     background-attachment: fixed;
 }
 
-
 #myBtn {
     display: none; 
     position: fixed; 
@@ -384,6 +355,76 @@ main small{
     border-left: 6px solid #3A6AFD;
     border-radius: 5px;
 }
+
+
+/*About page styles*/
+
+.about-header, 
+.contact-header{
+    height: auto;
+    padding: 50px 10px;
+    background: #000;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.about-banner{
+    background: #242834;
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-banner article{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-banner article p{
+    color: #fff;
+    text-align: left;
+    margin: 30px 0;
+}
+
+
+/*Contact page styles*/
+
+.contact-wrap{
+    padding: 50px 0;
+    background: #242834;
+}
+
+.contact-wrap h3{
+    color: #fff;
+    margin-bottom: 30px
+} 
+
+.contact-wrap .fa{
+    color: #898989;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.contact-wrap p{
+    color: #939393;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact-wrap form{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.contact-container{
+   padding: 20px;
+}
+
+
+/*Footer styles*/
 
 footer{
     padding: 60px 20px;
@@ -432,7 +473,7 @@ footer .socials span{
     margin-left: 10px;
 }
 
-/* Style for summary info items */
+/* Style for scroll animation */
 .scroll-animation {
     opacity: 0;
     transform: translateY(50px);
@@ -445,6 +486,8 @@ footer .socials span{
   }
 
 
+
+  /*Media queries for mobile*/
 
 @media (min-width:768px) {
 
@@ -462,6 +505,8 @@ footer .socials span{
     }
 }
 
+
+/*Media queries for tablet and laptop*/
 
 @media (min-width:1000px) {
 
@@ -497,6 +542,10 @@ footer .socials span{
 
     .container{
         width: 100%;
+    }
+
+    .contact-wrap p{
+        font-size: 16px;
     }
 
     .what-we-offer p, 
