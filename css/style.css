@@ -231,7 +231,8 @@ main small{
     margin-right: 15px;
 }
 
-.our-products, .core-values{
+.our-products, .our-services,
+.core-values{
     background: #000;
     padding: 0 10px 70px 10px;
     display: flex;
@@ -240,13 +241,33 @@ main small{
     justify-content: center;
 }
 
+.our-services{
+    background-color: #242834;
+}
+
+.our-services .card{
+    background: #000;
+    color: white;
+    border: none;
+}
+
+.our-services .card li{
+    color: white;
+    font-size: 14px;
+    list-style-type: disc;
+}
+
+.our-services .card-body{
+    padding: 30px 20px;
+}
+
 .product-container, 
 .core-values-container{
     width: 90%;
     margin: 50px 0;
 }
 
-.product-item{
+.product-item, .service-item{
     display: flex;
     justify-content: center;
 }
@@ -360,8 +381,7 @@ main small{
 
 /*About page styles*/
 
-.about-header, 
-.contact-header{
+.header{
     height: auto;
     padding: 50px 10px;
     background: #000;
@@ -391,7 +411,7 @@ main small{
 
 /*Contact page styles*/
 
-.contact-wrap{
+.contact-wrap, .product-wrap{
     padding: 50px 0;
     background: #242834;
 }
@@ -515,8 +535,12 @@ footer .socials span{
         height: 550px;
     }
 
-    .about-header{
+    .header{
         padding: 20px;
+    }
+
+    .header p{
+        width: 65%;
     }
 
     .about-banner{
@@ -560,6 +584,10 @@ footer .socials span{
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .socials .fa:hover{
+        color: #3A6AFD;
     }
 }
 
