@@ -42,24 +42,23 @@
 }
 
 .navbar .form-control{
-    margin-right: 100px;
-    background: darkgrey;
     border: none;
     color: gray;
+    padding-right: 50px;
     border-radius: 10px;
+    background: darkgrey;
     border-bottom: 2px solid #0641a7;
 }
 
-.navbar .form-control-wrap{
+.navbar .search-form{
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.navbar .form-control-wrap 
-.search-btn{
+.navbar .search-btn{
+    margin-left: -60px;
     background: none;
-    border: none;
 }
 
 .active{
@@ -263,7 +262,7 @@ main small{
 
 .product-container, 
 .core-values-container{
-    width: 90%;
+    width: 100%;
     margin: 50px 0;
 }
 
