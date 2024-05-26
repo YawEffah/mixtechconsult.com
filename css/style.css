@@ -85,7 +85,8 @@
     background-size: cover;
     justify-content: center;
     background-position: center;
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg) center;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(../images/banner.jpg) center;
 }
 
 .banner h1{
@@ -161,12 +162,14 @@
     background-size: cover;
     background-position: center;
     padding: 0 20px 70px 20px;
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/what-we-offer-back.gif) center;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url(../images/what-we-offer-back.gif) center;
 }
 
 .why-choose-us, 
 .our-mission{
-    background:linear-gradient(rgba(24, 25, 30, 0.90), rgba(24, 25, 30, 0.90)), url(../images/why-choose-us-back.png) center;
+    background:linear-gradient(rgba(24, 25, 30, 0.90), rgba(24, 25, 30, 0.90)), 
+    url(../images/why-choose-us-back.png) center;
 }
 
 .tag{
@@ -507,7 +510,7 @@ footer .socials span{
 @media (min-width:1000px) {
 
     .banner{
-        height: 550px;
+        height: 600px;
     }
 
     .header{
@@ -566,4 +569,14 @@ footer .socials span{
     }
 }
 
+
+/*Media queries for desktop
+@media (min-width:1200px) {
+
+    .banner{
+        height: 85vh;
+    }
+
+}
+*/
 
