@@ -75,27 +75,17 @@
 /* Home page styles */
 
 .banner{
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center;
+    z-index: 1;
     height: 620px;
     display: flex;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
     color: white;
+    align-items: center;
     position: relative;
-    z-index: 1;
-    &:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: -1;
-    }
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg) center;
 }
 
 .banner h1{
@@ -165,32 +155,18 @@
 
 .why-choose-us, .what-we-offer,
 .our-mission{
-    background-image: url(../images/what-we-offer-back.gif);
+    z-index: 1;
+    height: auto;
+    position: relative;
     background-size: cover;
     background-position: center;
-    height: auto;
     padding: 0 20px 70px 20px;
-    position: relative;
-    z-index: 1;
-    &:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(36, 40, 52, 0.80);
-        z-index: -1;
-    }
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/what-we-offer-back.gif) center;
 }
 
 .why-choose-us, 
 .our-mission{
-    background: url(../images/why-choose-us-back.png);
-    &:before {
-        content: "";
-        background-color: rgba(24, 25, 30, 0.90);
-    }
+    background:linear-gradient(rgba(24, 25, 30, 0.90), rgba(24, 25, 30, 0.90)), url(../images/why-choose-us-back.png) center;
 }
 
 .tag{
