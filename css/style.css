@@ -260,32 +260,38 @@ main small{
     margin: 0 auto;
 }
 
-.our-products .card{
-    border-radius: 15px;
-    background: linear-gradient(100deg, #feffff, #c6daff, #bad2ff, #bfffe7, #feffff);
-}
 
-.our-products .card h1{
-    font-weight: bolder;
-    font-size: 18px;
-    color: white;
-}
-
-.our-products .card-header{
-    background: #3A6AFD ;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.our-products .card p{
-    color: #242834;
-}
-
-.our-products .card img{
+.product-card {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(100deg, #feffff, #c6daff, #bad2ff, #bfffe7, #feffff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card-header img {
+    width: 85px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-header {
+    display: flex;
+    align-items: top;
+}
+
+.card-description {
+    color: #000;
+    margin-top: 20px;
+}
+
 
 .testimonials{
     background: #242834;
