@@ -93,7 +93,11 @@
     color: #fff;
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 40px;
+}
+
+.banner h2{
+    color: #fff;
+    font-size: 30px;
 }
 
 .banner h5{
@@ -566,6 +570,10 @@ footer .socials span{
 
     .socials .fa:hover{
         color: #3A6AFD;
+    }
+
+    footer p a:hover{
+        color: #0641a7;
     }
 }
 
